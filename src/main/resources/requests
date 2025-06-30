@@ -1,0 +1,14 @@
+POST http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+  "actor": "user123",
+  "type": "purchase",
+  "transactionData": {
+    "bookId": "book456",
+    "currency": "USD",
+    "price": 19.99
+  }
+}
+
+====================
